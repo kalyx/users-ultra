@@ -186,7 +186,7 @@ $howmany_latest= 10;
          <div class="left_col_users user-ultra-rounded">
         
           
-        <h3> <?php _e('Latest '.$howmany_latest.' Users', 'xoousers'); ?></h3>
+        <h3> <?php printf( __('Latest %s Users', 'xoousers'), $howmany_latest ); ?></h3>
         
          <?php
 			
