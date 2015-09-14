@@ -29,8 +29,7 @@ if($total_from_meta==$total_from_users)
         <div class="user-ultra-success uultra-notification"><?php _e('Success ','xoousers'); ?></div>
         
     <h3> <?php _e('WP User Meta Fields Cleaning ','xoousers'); ?></h3>
-     <p> <?php _e("This module helps you to remove useless user meta from the wp_usermeta
-table. It's useful to fix users count issues. This fixes the wrong amount of users displayed in the Users tab as well.",'xoousers'); ?><p>
+     <p> <?php _e("This module helps you to remove useless user meta from the wp_usermeta table. It's useful to fix users count issues. This fixes the wrong amount of users displayed in the Users tab as well.",'xoousers'); ?><p>
 
 <p> <?php _e("<strong>IMPORTANT:</strong> This module won't touch your Users Table but the User's Meta Table Only.",'xoousers'); ?><p>
 
