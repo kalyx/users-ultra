@@ -12,7 +12,7 @@ global $xoouserultra;
         
          <p><?php _e("<a href='http://www.usersultra.com/support/' target='_blank'>CLICK HERE </a>to visit Support Forum",'xoousers'); ?></p>
         
-        <p><?php _e("If you like this plugin, please don't forget to rate it",'xoousers'); <img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" />. <?php _e("<a href='http://wordpress.org/plugins/users-ultra/' target='_blank'>CLICK HERE TO RATE IT </a>",'xoousers'); ?></p>
+        <p><?php _e("If you like this plugin, please don't forget to rate it",'xoousers');?> <img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" />. <?php _e("<a href='http://wordpress.org/plugins/users-ultra/' target='_blank'>CLICK HERE TO RATE IT </a>",'xoousers'); ?></p>
         
    
     
