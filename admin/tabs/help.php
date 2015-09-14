@@ -12,7 +12,7 @@ global $xoouserultra;
         
          <p><?php _e("<a href='http://www.usersultra.com/support/' target='_blank'>CLICK HERE </a>to visit Support Forum",'xoousers'); ?></p>
         
-        <p>If you like this plugin, please don't forget to rate it <img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" />. <?php _e("<a href='http://wordpress.org/plugins/users-ultra/' target='_blank'>CLICK HERE TO RATE IT </a>",'xoousers'); ?></p>
+        <p><?php _e("If you like this plugin, please don't forget to rate it",'xoousers'); <img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" /><img src="<?php echo xoousers_url?>/admin/images/star-rating.png" width="20" height="20" />. <?php _e("<a href='http://wordpress.org/plugins/users-ultra/' target='_blank'>CLICK HERE TO RATE IT </a>",'xoousers'); ?></p>
         
    
     
@@ -53,26 +53,25 @@ global $xoouserultra;
                    <strong> <?php _e('User Profile  ','xoousers'); ?></strong>
                  <pre>[usersultra_profile optional_fields_to_display='age,country,social']</pre>
                  
-                  <strong>User Profile, displaying all fields</strong>
+                   <strong> <?php _e('User Profile, displaying all fields  ','xoousers'); ?></strong>
                  <pre>[usersultra_profile profile_fields_to_display='all']</pre>               
                  
-                 
-                   <strong>User Profile With Lightbox Gallery</strong>
+                   <strong> <?php _e('User Profile With Lightbox Gallery  ','xoousers'); ?></strong>
                  <pre>[usersultra_profile gallery_type='lightbox'] </pre>
                  
-                   <strong>Latest Users</strong>
+                   <strong> <?php _e('Latest Users  ','xoousers'); ?></strong>
                  <pre> [usersultra_users_latest optional_fields_to_display='social' ]   </pre>
                  
-                   <strong>Logged in Protection</strong>
+                   <strong> <?php _e('Logged in Protection  ','xoousers'); ?></strong>
                  <pre> [usersultra_protect_content display_rule='logged_in_based'  custom_message_loggedin='Only Logged in users can see the content']Your private content here [/usersultra_protect_content]  </pre>
                  
-                 <strong>Membership Protection</strong>
+                 <strong> <?php _e('Membership Protection  ','xoousers'); ?></strong>
                  <pre> [usersultra_protect_content display_rule='membership_based' membership_id='1'  custom_message_membership='Only Gold and Platinum Members can see this Video'] Private Content... [/usersultra_protect_content] </pre>
                  
-                   <strong>Excluding Modules From Members Panel</strong>
+                   <strong> <?php _e('Excluding Modules From Members Panel  ','xoousers'); ?></strong>
                  <pre> [usersultra_my_account disable='messages,photos']</pre>
                  
-                   <strong>Pricing Table</strong>
+                   <strong> <?php _e('Pricing Table  ','xoousers'); ?></strong>
                  <pre> [respo_pricing plan_id='input the plan id here' per='per month' button_text='Sign Up' button_color='blue' color='blue' button_target='self' button_rel='nofollow' ]<ul>	<li>Write Something here</li>	<li>Write Something here</li>	<li>Write Something here</li>	<li>Write Something here</li></ul>[/respo_pricing]</pre>
                  
                           
