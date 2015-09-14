@@ -73,7 +73,7 @@ global $xoouserultra;
             
               <div class="uultra-col">
              <h1><?php _e('Pages & Posts Protection','xoousers'); ?></h1> 
-             <p> <?php _e("With Users Ultra Por you can restrict content on a global or per page/post basis. You can restrict pages/posts so everyone can see the page/post or only logged in users can see the page/post ",'xoousers'); ?></p>
+             <p> <?php _e("With Users Ultra Pro you can restrict content on a global or per page/post basis. You can restrict pages/posts so everyone can see the page/post or only logged in users can see the page/post ",'xoousers'); ?></p>
             </div>  
             
           
